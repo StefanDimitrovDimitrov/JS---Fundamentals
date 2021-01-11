@@ -1,10 +1,10 @@
 function rearangeArr(arr){
-    newArr =[]
+    let newArr =[];
     for (let num of arr) {
         if (num <0){
-            newArr.unshift(num)
+            newArr.unshift(num);
         }else{
-            newArr.push(num)
+            newArr.push(num);
         }        
     }
     console.log(newArr.join('\n'));
