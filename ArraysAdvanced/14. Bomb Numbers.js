@@ -18,9 +18,7 @@ function bombNum(arr1, arr2) {
             }else{
                 removeNumElements = index + arr2[1] + 1
             }
-            console.log(arr1)
             arr1.splice(startIndex, removeNumElements);
-            console.log(arr1)
         }
     }
     if (arr1.length == 0){
