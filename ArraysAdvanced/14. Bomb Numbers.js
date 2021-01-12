@@ -19,6 +19,7 @@ function bombNum(arr1, arr2) {
                 removeNumElements = index + arr2[1] + 1
             }
             arr1.splice(startIndex, removeNumElements);
+
         }
     }
     if (arr1.length == 0){
