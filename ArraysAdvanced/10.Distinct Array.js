@@ -16,3 +16,8 @@ function distractArr(arr){
 }
 
 distractArr([20, 8, 12, 13, 4, 4, 8, 5])
+
+// for (let i = 0; i < array.length; i++) {
+//     let index = arr.indexOf(arr[i, i+1])
+    
+// }
