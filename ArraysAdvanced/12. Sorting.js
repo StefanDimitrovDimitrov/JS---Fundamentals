@@ -2,8 +2,7 @@ function sorting(arr){
 
     finalArr = []
 
-    function compareNumbers(a, b) {return a-b}
-    arr.sort(compareNumbers);
+    arr.sort((a, b) => (a-b));
 
     length = arr.length
 
@@ -13,15 +12,7 @@ function sorting(arr){
         
     }
 
-
-
-    // for (const element of arr) { 
-    //     finalArr.push(arr.pop())
-    //     finalArr.push(arr.shift())
-    // }
-    // finalArr.push(arr.pop())
-    // finalArr.push(arr.shift())
-    console.log(finalArr.join(", "));
+    console.log(finalArr.join(" "));
 
 }
 
