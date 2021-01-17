@@ -1,14 +1,14 @@
-function employees(arr){
+function employees(arr) {
 
-    class Employees{
-        constructor(name){
-            this.name = name
-                this.number = name.length
+    class Employees {
+        constructor(name) {
+            this.name = name;
+            this.number = name.length;
         }
 
         print() {
-            return `Name ${this.name} -- Personal Number: ${this.number}`
-        
+            return `Name: ${this.name} -- Personal Number: ${this.number}`;
+
         }
     }
 
@@ -18,14 +18,18 @@ function employees(arr){
             console.log(obj.print());
         })
 
+        // return arr.map(x => {
+        //     let obj = new Employee(x);
+        //     return obj.print();
+        // }).join("\n");
 
 }
 
 
 employees([
-'Silas Butler',
-'Adnaan Buckley',
-'Juan Peterson',
-'Brendan Villarreal'
+    'Silas Butler',
+    'Adnaan Buckley',
+    'Juan Peterson',
+    'Brendan Villarreal'
 ]
 )
