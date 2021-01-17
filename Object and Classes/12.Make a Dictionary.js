@@ -2,11 +2,14 @@ function solve(arr){
     let dictionary = {};
     arr.forEach(element => {
         element = JSON.parse(element);
+        console.log(element);
         let tuple = Object.entries(element);
         let term = tuple[0][0];
         let difinition = tuple[0][1];
         dictionary[term] = difinition;
     });
+
+    console.log(dictionary);
 
     Object.entries(dictionary)
     .sort((a,b) => a[0].localeCompare(b[0]))
