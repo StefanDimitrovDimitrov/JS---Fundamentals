@@ -19,7 +19,7 @@ function solve(arr) {
     .forEach(hero => {
         console.log(`Hero: ${hero.Hero}`);
         console.log(`level => ${hero.level}`);
-        console.log(`Items => ${hero.items}`);
+        console.log(`items => ${hero.items}`);
 
     })
 }
